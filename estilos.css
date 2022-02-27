@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background: #efed76;
+}
+.main{
+    display: flex;
+    background: #2f2f2f;
+    padding: 1%;
+    height: 20%;
+    color: white;
+    align-items: center;
+    width: 80%;
+    box-shadow: 0 0 0 5px rgba(133, 77, 55, 0.5),25px  25px 10px rgba(133, 77, 55, 0.9);
+}
+.intro{
+    padding: 15px;   
+    border-radius: 4px;
+    
+}
+.leter{
+    box-shadow: 5px -5px 10px rgba(133, 77, 55, 0.918),5px  -5px 10px;
+}
+.leter2{
+    width: 90%;
+    padding: 5px;   
+    border-radius: 4px;
+    box-shadow: 5px -5px 10px rgba(133, 77, 55, 0.918),5px  -5px 10px;
+}
+.main_img{
+    width: 100px;
+    box-shadow: 5px -5px 10px rgba(133, 77, 55, 0.918),5px  -5px 10px;
+    border-radius: 4%;
+    object-fit: contain;
+}
+.container{
+    width: 90%;
+    max-width: 900px;
+    margin: 5%;
+    overflow: hidden;
+    box-shadow: 0 0 0 5px rgba(133, 77, 55, 0.5),25px  25px 10px;
+    position: relative;
+}
+.slider{
+    display: flex;
+    width: 500%;
+    margin-left: -100%;
+}
+.slider2{
+    display: flex;
+    width: 400%;
+    margin-left: -100%;
+}
+.seccion{
+    width: 100%;
+}
+.seccion2{
+    width: 100%;
+}
+.slider_img{
+    display: block;
+    background: #2f2f2f;
+    width: 100%;
+    height: 100%;
+    object-fit: scale-down;
+}
+.boton{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: rgba(72, 184, 248, 0.01);
+    top: 50%;
+     
+    font-size: 30px;
+    font-weight: bold;
+    font-family: monospace;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+}
+.boton:hover{
+    background: rgb(51, 180, 255);
+}
+.derecho{
+    right: 10px;
+}
+#izquierdo{
+    left: 10px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 50%;
+    background: rgb(51, 180, 255);
+    box-shadow: 0 0 0 5px rgba(133, 77, 55, 0.5),25px  25px 10px rgba(133, 77, 55, 0.9);
+}
