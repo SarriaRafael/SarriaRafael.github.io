@@ -1,3 +1,3 @@
 ## Rafael
-**Pagian personal para mostrar algunos ejemplos**
+**Página personal para mostrar algunos ejemplos**
 >
