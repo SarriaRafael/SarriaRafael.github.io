@@ -1,3 +1,3 @@
 ## Rafael
-**Pagian personal para mostrar alguanos ejemplos**
+**Pagian personal para mostrar algunos ejemplos**
 >
